@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#392C51"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="390dp"
+        android:id="@+id/ivSplash"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/icget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvHead"
+        android:layout_width="229dp"
+        android:layout_height="57dp"
+        android:text="Healthy on you"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvSubHead"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvSubHead"
+        android:layout_width="212dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="100dp"
+        android:lineSpacingExtra="8dp"
+        android:text="key of happines is not a life for money"
+        android:textAlignment="center"
+        android:textColor="#A2A2AD"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivSplash">
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnget"
+        android:layout_width="287dp"
+        android:layout_height="49dp"
+        android:text="Get started"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#323131"
+        android:textStyle="bold"
+        android:background="@drawable/bgbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHead"
+        app:layout_constraintVertical_bias="0.605"></Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
